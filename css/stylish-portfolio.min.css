@@ -45,3 +45,15 @@ h1, h2, h3, h4, h5, h6,p{ font-family: 'Oswald', sans-serif;}
  .owl-dots{
     display: none !important;
 }
+	.serve1 {
+    position: relative;
+    /*-webkit-animation-name: example;*/
+    -webkit-animation-duration: 5s;
+    /*animation-name: example;*/
+    animation-duration: 5s;
+	}
+	.serve1 ul li {
+
+    list-style: none;
+
+	}
