@@ -60,3 +60,7 @@ h1, h2, h3, h4, h5, h6,p{ font-family: 'Oswald', sans-serif;}
 .serve1 ul{
 	padding:0;
 }
+.w3-animate-right {
+    position: relative;
+    animation: animateright 5s !important;
+}
