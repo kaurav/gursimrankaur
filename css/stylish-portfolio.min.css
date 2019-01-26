@@ -64,3 +64,11 @@ h1, h2, h3, h4, h5, h6,p{ font-family: 'Oswald', sans-serif;}
     position: relative;
     animation: animateright 6s !important;
 }
+.projects {
+
+    background: rgba(255, 255, 255, 0.1);
+    height: 200px;
+    margin: 5px 0;
+    padding: calc(50% - 64px) 20px;
+
+}
