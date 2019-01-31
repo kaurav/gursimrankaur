@@ -125,3 +125,17 @@ h1, h2, h3, h4, h5, h6,p{ font-family: 'Oswald', sans-serif;}
     border-bottom: 2px solid #aaacb0;
 
 }
+.html {width: 100%; background-color: #000;}
+.css {width: 95%; background-color: #000;}
+.js {width: 70%; background-color: #000;}
+.jquery {width: 70%; background-color: #000;}
+.php {width: 80%; background-color: #000;}
+.python {width: 65%; background-color: #000;}
+.wordpress {width: 75%; background-color: #000;}
+.reveal {width: 100%; background-color: #000;}
+.latex {width: 80%; background-color: #000;}
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
