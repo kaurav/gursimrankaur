@@ -106,3 +106,22 @@ h1, h2, h3, h4, h5, h6,p{ font-family: 'Oswald', sans-serif;}
     padding: 45px;
 
 }
+.contact1-form.validate-form {
+
+    width: 100%;
+    background: rgb(29, 128, 159);
+    padding: 50px 0;
+    margin: 50px 0;
+
+}
+.input1 {
+
+    width: 50%;
+    margin: 5px 0;
+    padding: 10px 10px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid #aaacb0;
+
+}
