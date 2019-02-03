@@ -140,7 +140,7 @@ body,html{width:100%;height:100%}body{font-family:'Source Sans Pro'}.btn-xl{padd
   color: white;
 }
 
-only screen and (max-width: 760px),
+@media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 	
@@ -148,12 +148,9 @@ only screen and (max-width: 760px),
 		display: block; 
 	}
 	
-	
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
+thead{
+	display:none;
+}	
 	
 	tr { border: 1px solid #ccc; }
 	
@@ -166,17 +163,12 @@ only screen and (max-width: 760px),
 	}
 	
 	td:before { 
-		
-		position: absolute;
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
+       font-weight:bold;		
+	white-space: nowrap;
 	}
 	
-	td:nth-of-type(1):before { content: "Degree"; }
-	td:nth-of-type(2):before { content: "University"; }
-	td:nth-of-type(3):before { content: "College"; }
-	td:nth-of-type(4):before { content: "Year"; }
+	td:nth-of-type(1):before { content: "Degree: "; }
+	td:nth-of-type(2):before { content: "University: "; }
+	td:nth-of-type(3):before { content: "College: "; }
+	td:nth-of-type(4):before { content: "Year: "; }
 }
