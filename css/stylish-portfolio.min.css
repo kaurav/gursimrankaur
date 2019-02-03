@@ -198,3 +198,10 @@ thead{
     margin: 30px auto;
 
 }
+.full-bar {
+
+    background-color: #ddd;
+    width: 100%;
+    border: 1px solid;
+
+}
