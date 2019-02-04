@@ -169,7 +169,9 @@ box-shadow: 1px 1px 2px 0px;
 
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
-
+.twoColor{
+	color:#000 !important;
+	}
 	
 	table, thead, tbody, th, td, tr { 
 		display: block; 
