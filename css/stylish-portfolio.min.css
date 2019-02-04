@@ -219,3 +219,9 @@ thead{
     color: #000;
 
 }
+.profile_img img {
+
+    border-radius: 50%;
+    height: 100px;
+
+}
