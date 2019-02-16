@@ -35,13 +35,13 @@ body,html{width:100%;height:100%}body{font-family:'Source Sans Pro'}.btn-xl{padd
 .owl-carousel .owl-item img{
 	max-height: 100%;
 }
-
+/* 
 .container.text-center.my-auto {
 
     background: rgba(231, 224, 224, 0.3);
     padding: 10px 0;
 
-}
+} */
  .owl-dots{
     display: none !important;
 }
